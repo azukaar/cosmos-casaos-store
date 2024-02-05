@@ -16,9 +16,7 @@ services:
       icon: https://icon.casaos.io/main/all/netdata.png
     pid: host
     ports:
-      - target: 19999
-        published: "19999"
-        protocol: tcp
+      - 19999:19999/tcp
     restart: unless-stopped
     security_opt:
       - apparmor:unconfined
@@ -53,30 +51,4 @@ services:
     network_mode: bridge
     privileged: false
     hostname: "{ServiceName}"
-x-casaos:
-  architectures:
-    - amd64
-    - arm64
-    - arm
-  author: f4bio
-  category: Utilities
-  description:
-    en_us: Netdata is a real-time performance and health monitoring solution that
-      helps you visualize and understand the behavior of your systems.
-    zh_cn: Netdata是一个实时性能和健康监控解决方案，帮助您可视化并理解系统的行为。
-  tagline:
-    en_us: Real-time Performance Monitoring
-    zh_cn: 实时性能监控
-  hostname: ""
-  screenshot_link:
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/screenshot-1.jpg
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/screenshot-2.png
-    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/screenshot-3.png
-  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Netdata/icon.png
-  index: /
-  port_map: "19999"
-  scheme: http
-  store_app_id: netdata
-  title:
-    en_us: Netdata
 minVersion: 0.14.0-0

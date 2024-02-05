@@ -67,6 +67,7 @@ function composeConvert(input) {
     service.container_name = newName;
     service.hostname = newName;
 
+    // convert volumes
     service.volumes = service.volumes && service.volumes.map(volume => {
       // if string, replace
       if (typeof volume === 'string') {
@@ -78,11 +79,25 @@ function composeConvert(input) {
       }
     });
 
+    // convert ports
+    service.ports = service.ports && service.ports.map(port => {
+      // if string, replace
+      if (typeof port === 'object') {
+        return `${port.published}:${port.target}/${port.protocol}`;
+      } else {
+        return port;
+      }
+    });
+
+    delete service['x-casaos']
+
     doc.services[newName] = service;
     delete doc.services[name];
   }
 
   doc["minVersion"] = "0.14.0-0";
+
+  delete doc['x-casaos']
 
   return yaml.stringify(doc);
 }
