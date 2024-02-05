@@ -2,7 +2,9 @@
   "name": "Ddns-go",
   "description": "Simple and easy to use DDNS",
   "longDescription": "Simple and easy to use DDNS. automatically update domain name resolution to public IP (support Ali cloud, Tencent cloud, Dnspod, Cloudflare, Callback, Huawei cloud, Baidu cloud, Porkbun, GoDaddy, Google Domain).",
-  "tags": "Network",
+  "tags": [
+    "Network"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

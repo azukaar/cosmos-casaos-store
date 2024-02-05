@@ -2,7 +2,9 @@
   "name": "ChatGPT-Next-Web",
   "description": "A well-designed cross-platform ChatGPT UI.",
   "longDescription": "An intelligent chat application based on ChatGPT, supports fast deployment, Markdown, beautiful UI, fluid response, privacy and security, and allows customization of preset roles for quick creation, sharing, and debugging of personalized conversations.",
-  "tags": "Utilities",
+  "tags": [
+    "Utilities"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

@@ -79,4 +79,4 @@ x-casaos:
   store_app_id: netdata
   title:
     en_us: Netdata
-minVersion: 0.14.0
+minVersion: 0.14.0-0

@@ -91,4 +91,4 @@ x-casaos:
   store_app_id: handbrake
   title:
     en_us: handbrake
-minVersion: 0.14.0
+minVersion: 0.14.0-0

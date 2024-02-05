@@ -149,4 +149,4 @@ x-casaos:
   title:
     en_us: Prowlarr
   port_map: "9696"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

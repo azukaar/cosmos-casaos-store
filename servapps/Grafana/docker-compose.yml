@@ -317,4 +317,4 @@ x-casaos:
     en_us: Grafana
   index: /
   port_map: "3003"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

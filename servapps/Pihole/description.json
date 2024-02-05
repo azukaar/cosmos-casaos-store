@@ -2,7 +2,9 @@
   "name": "Pihole",
   "description": "Network-wide Ad Blocking",
   "longDescription": "Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.",
-  "tags": "Network",
+  "tags": [
+    "Network"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

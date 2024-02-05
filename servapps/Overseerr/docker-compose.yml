@@ -154,4 +154,4 @@ x-casaos:
     en_us: Overseerr
   category: Media
   port_map: "5055"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

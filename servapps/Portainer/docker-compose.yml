@@ -76,4 +76,4 @@ x-casaos:
   index: /
   port_map: "9000"
   scheme: http
-minVersion: 0.14.0
+minVersion: 0.14.0-0

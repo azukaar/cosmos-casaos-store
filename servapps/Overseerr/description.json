@@ -2,7 +2,9 @@
   "name": "Overseerr",
   "description": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
   "longDescription": "Overseerr is a free and open source software application for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Plex!",
-  "tags": "Media",
+  "tags": [
+    "Media"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

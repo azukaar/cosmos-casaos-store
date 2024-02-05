@@ -2,7 +2,9 @@
   "name": "Resilio-sync",
   "description": "Unleash the power of seamless file synchronization.",
   "longDescription": "resilio-sync is a Docker-based application that enables fast and secure file synchronization and sharing.",
-  "tags": "File Sync",
+  "tags": [
+    "File Sync"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

@@ -103,4 +103,4 @@ x-casaos:
     en_us: n8n
   index: /
   port_map: "5678"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

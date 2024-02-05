@@ -132,4 +132,4 @@ x-casaos:
   title:
     en_us: Bazarr
   port_map: "6767"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

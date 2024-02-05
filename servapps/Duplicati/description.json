@@ -2,7 +2,9 @@
   "name": "Duplicati",
   "description": "Store securely encrypted backups in the cloud!",
   "longDescription": "Duplicati is a free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers.",
-  "tags": "Cloud",
+  "tags": [
+    "Cloud"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

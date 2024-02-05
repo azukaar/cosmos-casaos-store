@@ -161,4 +161,4 @@ x-casaos:
   title:
     en_us: Lidarr
   port_map: "8686"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

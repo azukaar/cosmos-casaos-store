@@ -174,4 +174,4 @@ x-casaos:
     en_us: Pi-hole
   index: /admin
   port_map: "8800"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

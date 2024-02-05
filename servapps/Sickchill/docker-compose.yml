@@ -155,4 +155,4 @@ x-casaos:
   title:
     en_us: Sickchill
   port_map: "8081"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

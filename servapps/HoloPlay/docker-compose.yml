@@ -44,4 +44,4 @@ x-casaos:
     en_us: HoloPlay
   index: /
   port_map: "3000"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

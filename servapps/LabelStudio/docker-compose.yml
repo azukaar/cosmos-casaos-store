@@ -66,4 +66,4 @@ x-casaos:
   title:
     en_us: Label Studio
   port_map: "3080"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

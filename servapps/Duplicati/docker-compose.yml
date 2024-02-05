@@ -130,4 +130,4 @@ x-casaos:
     en_us: Duplicati
   index: /
   port_map: "8200"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

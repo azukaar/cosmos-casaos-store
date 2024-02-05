@@ -151,4 +151,4 @@ x-casaos:
     en_us: qBittorrent
   index: /
   port_map: "8181"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

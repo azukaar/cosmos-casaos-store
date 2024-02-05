@@ -129,4 +129,4 @@ x-casaos:
     en_us: FileBrowser
   index: /
   port_map: "10180"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

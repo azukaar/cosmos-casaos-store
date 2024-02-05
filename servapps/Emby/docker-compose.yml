@@ -141,4 +141,4 @@ x-casaos:
     en_us: Emby
   index: /
   port_map: "8096"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

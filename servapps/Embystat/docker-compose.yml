@@ -167,4 +167,4 @@ x-casaos:
   title:
     en_us: Embystat
   port_map: "6555"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

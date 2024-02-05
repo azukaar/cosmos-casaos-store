@@ -197,4 +197,4 @@ x-casaos:
   index: /panel
   scheme: https
   port_map: "8111"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

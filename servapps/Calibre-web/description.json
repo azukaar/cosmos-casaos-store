@@ -2,7 +2,9 @@
   "name": "Calibre-web",
   "description": "Web app for browsing, reading and downloading eBooks stored in a Calibre database",
   "longDescription": "Calibre-web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.",
-  "tags": "Media",
+  "tags": [
+    "Media"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

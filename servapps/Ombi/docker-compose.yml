@@ -141,4 +141,4 @@ x-casaos:
   title:
     en_us: Ombi
   port_map: "3579"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

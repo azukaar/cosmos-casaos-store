@@ -156,4 +156,4 @@ x-casaos:
   category: Developer
   title:
     en_us: MongoDB 4
-minVersion: 0.14.0
+minVersion: 0.14.0-0

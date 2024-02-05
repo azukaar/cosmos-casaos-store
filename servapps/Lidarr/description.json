@@ -2,7 +2,9 @@
   "name": "Lidarr",
   "description": "Music collection manager for Usenet and BitTorrent users",
   "longDescription": "Lidarr is a music collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new albums from your favorite artists and will interface with clients and indexers to grab, sort, and rename them. It can also be configured to automatically upgrade the quality of existing files in the library when a better quality format becomes available.",
-  "tags": "Downloader",
+  "tags": [
+    "Downloader"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

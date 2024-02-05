@@ -86,4 +86,4 @@ x-casaos:
   store_app_id: resilio-sync
   title:
     en_us: resilio-sync
-minVersion: 0.14.0
+minVersion: 0.14.0-0

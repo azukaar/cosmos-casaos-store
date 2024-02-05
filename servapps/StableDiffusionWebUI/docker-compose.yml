@@ -59,4 +59,4 @@ x-casaos:
     en_us: Stable Diffusion WebUI
   index: /
   port_map: "7860"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

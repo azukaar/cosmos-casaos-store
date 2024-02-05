@@ -159,4 +159,4 @@ x-casaos:
     en_us: Sonarr
   index: /
   port_map: "8989"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

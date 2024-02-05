@@ -85,4 +85,4 @@ x-casaos:
   store_app_id: snapdrop
   title:
     en_us: snapdrop
-minVersion: 0.14.0
+minVersion: 0.14.0-0

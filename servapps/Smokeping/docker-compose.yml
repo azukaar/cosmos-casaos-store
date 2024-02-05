@@ -99,4 +99,4 @@ x-casaos:
   title:
     en_us: Smokeping
   port_map: "10280"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

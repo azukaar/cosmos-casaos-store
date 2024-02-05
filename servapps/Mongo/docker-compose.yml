@@ -183,4 +183,4 @@ x-casaos:
         не працюватиме з ZimaBoard.
   title:
     en_us: MongoDB
-minVersion: 0.14.0
+minVersion: 0.14.0-0

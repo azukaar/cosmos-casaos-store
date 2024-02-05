@@ -2,7 +2,9 @@
   "name": "Bazarr",
   "description": "Letter generators for Sonarr and Radarr",
   "longDescription": "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
-  "tags": "Media",
+  "tags": [
+    "Media"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

@@ -168,4 +168,4 @@ x-casaos:
   title:
     en_us: Nzbget
   port_map: "6789"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

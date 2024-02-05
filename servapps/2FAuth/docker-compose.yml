@@ -112,4 +112,4 @@ x-casaos:
     en_us: 2FAuth
   index: /
   port_map: "8000"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

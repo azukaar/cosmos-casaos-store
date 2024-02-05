@@ -2,7 +2,9 @@
   "name": "HoloPlay",
   "description": "A web app to listen Youtube audio source.",
   "longDescription": "HoloPlay is a web based self-hosted using Invidious API for listening Youtube audio source.",
-  "tags": "WEB",
+  "tags": [
+    "WEB"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

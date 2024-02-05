@@ -2,7 +2,9 @@
   "name": "PyLoad",
   "description": "Free Downloader Manager.",
   "longDescription": "pyLoad is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.",
-  "tags": "Downloader",
+  "tags": [
+    "Downloader"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

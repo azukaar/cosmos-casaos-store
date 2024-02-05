@@ -2,7 +2,9 @@
   "name": "Filedrop",
   "description": "FileDrop is a free, open source file sharing service",
   "longDescription": "FileDrop is a self-hosted file sharing service that allows you to easily share files with family, friends, or colleagues. It's been designed to be easy to use and light on resources.\n",
-  "tags": "Cloud",
+  "tags": [
+    "Cloud"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

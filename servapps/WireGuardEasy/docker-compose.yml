@@ -125,4 +125,4 @@ x-casaos:
   title:
     en_us: WireGuard Easy
   port_map: "51821"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

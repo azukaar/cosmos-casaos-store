@@ -50,4 +50,4 @@ x-casaos:
   port_map: "16601"
   scheme: http
   store_app_id: lucky
-minVersion: 0.14.0
+minVersion: 0.14.0-0

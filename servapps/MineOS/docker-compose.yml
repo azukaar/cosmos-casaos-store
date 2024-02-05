@@ -291,4 +291,4 @@ volumes:
   mineos_data: null
 networks:
   mineos: null
-minVersion: 0.14.0
+minVersion: 0.14.0-0

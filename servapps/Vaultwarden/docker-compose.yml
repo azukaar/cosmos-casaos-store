@@ -114,4 +114,4 @@ x-casaos:
     en_us: Vaultwarden
   index: /
   port_map: "10380"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

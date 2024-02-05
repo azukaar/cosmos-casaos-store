@@ -174,4 +174,4 @@ x-casaos:
     en_us: Jellyfin
   index: /
   port_map: "8097"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

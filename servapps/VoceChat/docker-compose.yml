@@ -108,4 +108,4 @@ x-casaos:
     en_us: VoceChat
   index: /
   port_map: "3009"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

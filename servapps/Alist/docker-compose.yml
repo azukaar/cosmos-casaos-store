@@ -59,4 +59,4 @@ x-casaos:
       zh_cn: 安装完成后，请在容器日志（应用-设置-右上角-终端与日志-日志）中查看初始密码。
   title:
     en_us: Alist
-minVersion: 0.14.0
+minVersion: 0.14.0-0

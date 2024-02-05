@@ -84,4 +84,4 @@ x-casaos:
   title:
     en_us: Media Fetch Pro
   port_map: "7789"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

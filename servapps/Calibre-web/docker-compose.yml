@@ -159,4 +159,4 @@ x-casaos:
     en_us: Calibre-web
   index: /
   port_map: "8083"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

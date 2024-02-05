@@ -55,4 +55,4 @@ x-casaos:
     zh_cn: 简单好用的DDNS
   title:
     en_us: ddns-go
-minVersion: 0.14.0
+minVersion: 0.14.0-0

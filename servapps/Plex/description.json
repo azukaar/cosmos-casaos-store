@@ -2,7 +2,9 @@
   "name": "Plex",
   "description": "The home for all your entertainment.",
   "longDescription": "Plex organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone Plex Media Server. has always been a top priority. Straightforward design and bulk actions mean getting things done faster.",
-  "tags": "Media",
+  "tags": [
+    "Media"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

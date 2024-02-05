@@ -2,7 +2,9 @@
   "name": "Smokeping",
   "description": "Free open source network performance monitoring tool",
   "longDescription": "keeps track of your network latency.",
-  "tags": "Network",
+  "tags": [
+    "Network"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

@@ -2,7 +2,9 @@
   "name": "2FAuth",
   "description": "A web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes",
   "longDescription": "2FAuth is a web based self-hosted alternative to One Time Passcode (OTP) generators like Google Authenticator, designed for both mobile and desktop.",
-  "tags": "Utilities",
+  "tags": [
+    "Utilities"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

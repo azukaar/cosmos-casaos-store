@@ -125,4 +125,4 @@ x-casaos:
   store_app_id: emulatorjs
   title:
     en_us: emulatorjs
-minVersion: 0.14.0
+minVersion: 0.14.0-0

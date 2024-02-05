@@ -47,4 +47,4 @@ x-casaos:
   title:
     en_us: Adminer
   port_map: "8080"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

@@ -2,7 +2,9 @@
   "name": "Readarr",
   "description": "Ebook and audiobook collection manager for Usenet and BitTorrent users.",
   "longDescription": "Readarr is a ebook collection manager for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new books from your favorite authors and will interface with clients and indexers to grab, sort, and rename them.",
-  "tags": "Media",
+  "tags": [
+    "Media"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

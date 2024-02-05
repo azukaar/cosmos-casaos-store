@@ -146,4 +146,4 @@ x-casaos:
   title:
     en_us: Lazylibrarian
   port_map: "5299"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

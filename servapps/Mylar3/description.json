@@ -2,7 +2,9 @@
   "name": "Mylar3",
   "description": "Automatic comic book (cbr/cbz) downloader",
   "longDescription": "Mylar is an automated Comic Book (cbr/cbz) downloader program for use with NZB and torrents. Mylar allows you to create a watchlist of series that it monitors for various things (new issues, updated information, etc). It will grab, sort, and rename downloaded issues. It will also allow you to monitor weekly pull-lists for items belonging to said watchlisted series to download, as well as being able to monitor and maintain story-arcs.",
-  "tags": "Downloader",
+  "tags": [
+    "Downloader"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

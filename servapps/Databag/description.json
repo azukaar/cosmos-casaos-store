@@ -2,7 +2,9 @@
   "name": "Databag",
   "description": "Messenger for the Decentralized Web",
   "longDescription": "Databag is a federated chat app for self-hosting that focuses on user privacy and security; the service includes clients for iOS, Android, and browser.",
-  "tags": "Chat",
+  "tags": [
+    "Chat"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

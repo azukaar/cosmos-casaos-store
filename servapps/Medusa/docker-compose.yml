@@ -54,4 +54,4 @@ x-casaos:
   store_app_id: medusa
   title:
     en_us: Medusa
-minVersion: 0.14.0
+minVersion: 0.14.0-0

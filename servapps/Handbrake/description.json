@@ -2,7 +2,9 @@
   "name": "Handbrake",
   "description": "Liberate your videos and unleash infinite possibilities.",
   "longDescription": "Handbrake is a Docker-based application for video transcoding and compression, offering powerful and flexible multimedia processing across multiple platforms.",
-  "tags": "Media",
+  "tags": [
+    "Media"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

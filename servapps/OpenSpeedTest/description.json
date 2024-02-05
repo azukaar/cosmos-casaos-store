@@ -2,7 +2,9 @@
   "name": "OpenSpeedTest",
   "description": "HTML5 Network Speed Test Server.",
   "longDescription": "An application for launching HTML5 Network Speed Test Server. You can test download & upload speed from any device within your network with a web browser that is IE10 or new.",
-  "tags": "Utilities",
+  "tags": [
+    "Utilities"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

@@ -118,4 +118,4 @@ x-casaos:
     en_us: Home Assistant
   index: /
   port_map: "8123"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

@@ -2,7 +2,9 @@
   "name": "Portainer",
   "description": "Lightweight Docker management UI",
   "longDescription": "Portainer is a lightweight management UI which allows you to easily manage your Docker environments. It is designed to be easy to use and offers full control over your Docker hosts and containers.",
-  "tags": "Utilities",
+  "tags": [
+    "Utilities"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

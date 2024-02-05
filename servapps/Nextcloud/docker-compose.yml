@@ -115,4 +115,4 @@ x-casaos:
     en_us: Nextcloud
   index: /
   port_map: "10081"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

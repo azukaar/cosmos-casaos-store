@@ -116,4 +116,4 @@ x-casaos:
     en_us: Gitea
   index: /
   port_map: "3002"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

@@ -67,4 +67,4 @@ x-casaos:
     pt_br: MySpeed
   index: /
   port_map: "5216"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

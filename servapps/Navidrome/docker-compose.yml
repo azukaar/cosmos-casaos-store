@@ -94,4 +94,4 @@ x-casaos:
   store_app_id: navidrome
   title:
     en_us: Navidrome
-minVersion: 0.14.0
+minVersion: 0.14.0-0

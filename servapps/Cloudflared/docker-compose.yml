@@ -170,4 +170,4 @@ x-casaos:
   title:
     en_us: Cloudflared
   port_map: "14333"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

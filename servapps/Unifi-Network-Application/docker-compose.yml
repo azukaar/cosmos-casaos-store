@@ -178,4 +178,4 @@ x-casaos:
   store_app_id: unifi-network-application
   title:
     en_us: Unifi Network Application
-minVersion: 0.14.0
+minVersion: 0.14.0-0

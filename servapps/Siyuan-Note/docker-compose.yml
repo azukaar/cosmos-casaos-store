@@ -86,4 +86,4 @@ x-casaos:
     zh_cn: 思源笔记
   index: null
   port_map: "6806"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

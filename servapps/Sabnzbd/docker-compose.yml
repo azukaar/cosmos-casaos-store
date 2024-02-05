@@ -194,4 +194,4 @@ x-casaos:
   title:
     en_us: Sabnzbd
   port_map: "8282"
-minVersion: 0.14.0
+minVersion: 0.14.0-0

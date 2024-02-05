@@ -2,7 +2,9 @@
   "name": "Anaconda3",
   "description": "Your machine learning Env work with Jupyter Lab",
   "longDescription": "Your machine learning Env work with Jupyter Lab",
-  "tags": "AI",
+  "tags": [
+    "AI"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

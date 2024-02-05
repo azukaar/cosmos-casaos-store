@@ -57,4 +57,4 @@ x-casaos:
   tagline:
     en_us: Modern, easy to use download automation for torrents and usenet.
     zh_cn: 现代、易于使用的Torrents和Usenet下载自动化工具。
-minVersion: 0.14.0
+minVersion: 0.14.0-0

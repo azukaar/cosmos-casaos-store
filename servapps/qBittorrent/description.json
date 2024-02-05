@@ -2,7 +2,9 @@
   "name": "qBittorrent",
   "description": "Free BitTorrent downloader",
   "longDescription": "The qBittorrent project aims to provide an open-source software alternative to µTorrent.",
-  "tags": "Downloader",
+  "tags": [
+    "Downloader"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

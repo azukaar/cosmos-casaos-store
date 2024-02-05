@@ -71,4 +71,4 @@ x-casaos:
   store_app_id: esphome
   title:
     en_us: ESPHome
-minVersion: 0.14.0
+minVersion: 0.14.0-0

@@ -2,7 +2,9 @@
   "name": "PostgreSQL",
   "description": "PostgreSQL is an advanced, enterprise-class, and open-source relational database system. PostgreSQL supports both SQL (relational) and JSON (non-relational) querying.",
   "longDescription": "PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.\n\nPostgreSQL is a highly stable database backed by more than 20 years of development by the open-source community.\n\nPostgreSQL is used as a primary database for many web applications as well as mobile and analytics applications.\n",
-  "tags": "Developer",
+  "tags": [
+    "Developer"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [

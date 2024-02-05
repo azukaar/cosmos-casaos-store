@@ -2,7 +2,9 @@
   "name": "ChatbotUI",
   "description": "Open source chat UI for AI models",
   "longDescription": "Chatbot UI is an open source chat UI for AI models.",
-  "tags": "Chat",
+  "tags": [
+    "Chat"
+  ],
   "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
   "image": "",
   "supported_architectures": [
