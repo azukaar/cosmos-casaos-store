@@ -30,7 +30,7 @@ for (const file of servapps) {
   }
 
   servapp.icon = `https://azukaar.github.io/cosmos-casaos-store/servapps/${file}/icon.png`
-  servapp.compose = `https://azukaar.github.io/cosmos-casaos-store/servapps/${file}/docker-compose.json`
+  servapp.compose = `https://azukaar.github.io/cosmos-casaos-store/servapps/${file}/docker-compose.yml`
 
   servappsJSON.push(servapp)
 }
@@ -49,7 +49,7 @@ fs.writeFileSync('./servapps.json', JSON.stringify(servappsJSON, null, 2))
 fs.writeFileSync('./index.json', JSON.stringify(apps, null, 2))
 
 for (const servapp of servappsJSON) {
-  servapp.compose = `http://localhost:3000/servapps/${servapp.id}/docker-compose.json`
+  servapp.compose = `http://localhost:3000/servapps/${servapp.id}/docker-compose.yml`
   servapp.icon = `http://localhost:3000/servapps/${servapp.id}/icon.png`
   for (let i = 0; i < servapp.screenshots.length; i++) {
     servapp.screenshots[i] = servapp.screenshots[i].replace('https://azukaar.github.io/cosmos-casaos-store', 'http://localhost:3000')
