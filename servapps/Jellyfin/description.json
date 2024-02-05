@@ -1,0 +1,12 @@
+{
+  "name": "Jellyfin",
+  "description": "Puts you in control of your media.",
+  "longDescription": "Jellyfin enables you to collect, manage, and stream your media. Run the Jellyfin server on your system and gain access to the leading free-software entertainment system, bells and whistles included.",
+  "tags": "Media",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ]
+}

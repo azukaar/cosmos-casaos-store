@@ -1,0 +1,13 @@
+{
+  "name": "ESPHome",
+  "description": "Home Automation systems",
+  "longDescription": "ESPHome is a system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems.",
+  "tags": "Home Automation",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CloudBeaver",
+  "description": "Cloud Database Manager.",
+  "longDescription": "CloudBeaver is a web-based database GUI tool which provides rich web interface. You can use it to manage PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, DB2, Firebird, H2, Trino.",
+  "tags": "Developer",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ]
+}

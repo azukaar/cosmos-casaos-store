@@ -1,0 +1,13 @@
+{
+  "name": "Navidrome",
+  "description": "Music Collection and Streaming Server",
+  "longDescription": "Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!",
+  "tags": "Media",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "MediaFetchPro",
+  "description": "Media Fetch PRO is an application to download video of youtube, bilibili and more websites in future with metadata to jellyfin, emby, plex and more softwares in future.",
+  "longDescription": "Media Fetch PRO is an application to download video of youtube, bilibili and more websites in future with metadata to jellyfin, emby, plex and more softwares in future. Project - https://github.com/Media-Fetch-Pro/Media-Fetch-Pro",
+  "tags": "Media",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ]
+}

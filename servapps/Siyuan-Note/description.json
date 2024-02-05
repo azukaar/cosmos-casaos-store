@@ -1,0 +1,13 @@
+{
+  "name": "Siyuan-Note",
+  "description": "Personal knowledge management system",
+  "longDescription": "SiYuan is a privacy-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG.",
+  "tags": "Notes",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

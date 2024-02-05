@@ -1,0 +1,11 @@
+{
+  "name": "VoceChat",
+  "description": "Have a Private Social Space Hosted on Your Site",
+  "longDescription": "As a top alternative to centralized chat services, Voce chat is a superlight Rust powered open-core chat app that prioritizes private hosting.",
+  "tags": "Chat",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64"
+  ]
+}

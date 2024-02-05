@@ -1,0 +1,57 @@
+cosmos-installer: null
+name: medusa
+services:
+  "{ServiceName}":
+    container_name: "{ServiceName}"
+    deploy:
+      resources:
+        limits:
+          memory: 7848M
+    environment:
+      - TZ= auto
+    image: pymedusa/medusa:master
+    ports:
+      - target: 8081
+        published: "8081"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: "{DefaultDataPath}/AppData/{ServiceName}"
+        target: /config
+      - type: bind
+        source: "{DefaultDataPath}/AppData/{ServiceName}/Downloads/Television"
+        target: /downloads
+      - type: bind
+        source: "{DefaultDataPath}/AppData/{ServiceName}/Media/Television"
+        target: /tv
+    network_mode: bridge
+    privileged: false
+    hostname: "{ServiceName}"
+x-casaos:
+  architectures:
+    - amd64
+    - arm64
+    - arm
+  main: medusa
+  author: Jason McFeetors
+  developer: pyMedusa (https://github.com/pymedusa)
+  category: Media
+  description:
+    en_us: Automatic Video Library Manager for TV Shows. It watches for new episodes
+      of your favorite shows, and when they are posted it does its magic.
+  icon: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/medusa.png
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/screenshot-1.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/screenshot-2.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/screenshot-3.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/screenshot-4.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/screenshot-5.png
+    - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Medusa/screenshot-6.png
+  index: /
+  port_map: "8081"
+  scheme: http
+  store_app_id: medusa
+  title:
+    en_us: Medusa
+minVersion: 0.14.0

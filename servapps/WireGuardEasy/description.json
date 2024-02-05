@@ -1,0 +1,13 @@
+{
+  "name": "WireGuardEasy",
+  "description": "WEB UI to manage WireGuard VPN.",
+  "longDescription": "You have found the easiest way to install & manage WireGuard on any Linux host!",
+  "tags": "Network",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ]
+}

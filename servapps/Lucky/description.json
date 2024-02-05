@@ -1,0 +1,13 @@
+{
+  "name": "Lucky",
+  "description": "Powerful networking tool",
+  "longDescription": "A powerful tool for port forwarding, reverse proxy, dynamic DNS, wake-on-LAN, IPv4 NAT traversal, webdav services, task scheduling, and automatic certificate management.",
+  "tags": "Network",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ]
+}

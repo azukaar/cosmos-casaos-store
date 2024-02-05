@@ -1,0 +1,13 @@
+{
+  "name": "FileBrowser",
+  "description": "Upload, delete, preview, rename, edit and share your files.",
+  "longDescription": "File Browser - Webbased File Browser including sharing functions etc.",
+  "tags": "Cloud",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

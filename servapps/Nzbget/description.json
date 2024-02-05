@@ -1,0 +1,13 @@
+{
+  "name": "Nzbget",
+  "description": "Efficient Usenet downloader",
+  "longDescription": "NZBGet can run on almost any device - classic PC, NAS, media player, SAT-receiver, WLAN-router, etc. The download area provides precompiled binaries for Windows, macOS, Linux (compatible with many CPUs and platform variants), FreeBSD and Android. For other platforms the program can be compiled from sources.",
+  "tags": "Downloader",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ]
+}

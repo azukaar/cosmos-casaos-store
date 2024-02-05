@@ -1,0 +1,12 @@
+{
+  "name": "Snapdrop",
+  "description": "Cross-platform file sharing made easy.",
+  "longDescription": "Snapdrop is a Progressive Web App (PWA) that allows you to transfer files between devices in the same network without having to install anything.",
+  "tags": "Utilities",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ]
+}

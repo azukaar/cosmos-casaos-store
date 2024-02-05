@@ -1,0 +1,11 @@
+{
+  "name": "Motioneye",
+  "description": "A web frontend for the motion daemon.",
+  "longDescription": "motionEye is a web-based frontend for motion. Check out the wiki for more details. Changelog is available on the releases page. https://github.com/motioneye-project/motioneye",
+  "tags": "Utilities",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64"
+  ]
+}

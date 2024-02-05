@@ -1,0 +1,13 @@
+{
+  "name": "NginxProxyManager",
+  "description": "Managing Nginx proxy hosts with a simple, powerful interface.",
+  "longDescription": "Nginx Proxy Manager is a simple, powerful tool to help you host multiple websites on a single server.",
+  "tags": "Network",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

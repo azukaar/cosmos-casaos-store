@@ -1,0 +1,13 @@
+{
+  "name": "Netdata",
+  "description": "Real-time Performance Monitoring",
+  "longDescription": "Netdata is a real-time performance and health monitoring solution that helps you visualize and understand the behavior of your systems.",
+  "tags": "Utilities",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

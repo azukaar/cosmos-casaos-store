@@ -1,0 +1,12 @@
+{
+  "name": "EmulatorJS",
+  "description": "EmulatorJS is a Docker-based emulator application that can simulate various operating systems and device environments within containers for development, testing, and learning purposes.",
+  "longDescription": "EmulatorJS is a Docker-based emulator application that can simulate various operating systems and device environments within containers for development, testing, and learning purposes.",
+  "tags": "Utilities",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ]
+}

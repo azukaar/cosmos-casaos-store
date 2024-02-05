@@ -1,0 +1,13 @@
+{
+  "name": "Twingate",
+  "description": "Twingate Connector for CasaOS",
+  "longDescription": "It's a connector for Twingate\".",
+  "tags": "Network",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

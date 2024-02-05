@@ -1,0 +1,12 @@
+{
+  "name": "Gitea",
+  "description": "Git with a cup of tea",
+  "longDescription": "Gitea is a community managed lightweight code hosting solution written in Go.",
+  "tags": "Developer",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ]
+}

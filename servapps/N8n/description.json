@@ -1,0 +1,13 @@
+{
+  "name": "N8n",
+  "description": "Workflow automation tool",
+  "longDescription": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
+  "tags": "Utilities",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Memos",
+  "description": "Memos is a lightweight, self-hosted memo hub. Open Source and Free forever.",
+  "longDescription": "Memos is a lightweight, self-hosted memo hub. Open Source and Free forever.",
+  "tags": "Notes",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Alist",
+  "description": "A file list program that supports multiple storage",
+  "longDescription": "A file list program that supports multiple storage, powered by Gin and Solidjs.",
+  "tags": "Cloud",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ]
+}

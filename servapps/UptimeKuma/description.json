@@ -1,0 +1,13 @@
+{
+  "name": "UptimeKuma",
+  "description": "A fancy monitoring tool",
+  "longDescription": "It is a self-hosted monitoring tool like \"Uptime Robot\".",
+  "tags": "Network",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm64",
+    "arm"
+  ]
+}

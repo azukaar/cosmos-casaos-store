@@ -1,0 +1,13 @@
+{
+  "name": "Crafty",
+  "description": "Take control of your Minecraft servers.",
+  "longDescription": "Crafty is an open source Minecraft control panel built using Tornado and AdminLTE, featuring server scheduling, a interactive console and the ability to run almost any type of Minecraft server",
+  "tags": "Games",
+  "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
+  "image": "",
+  "supported_architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ]
+}
