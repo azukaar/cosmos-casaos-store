@@ -13,7 +13,7 @@ services:
           memory: 64M
     network_mode: bridge
     ports:
-      - 8181:8181/undefined
+      - 8181:8181
     restart: unless-stopped
     volumes:
       - type: bind

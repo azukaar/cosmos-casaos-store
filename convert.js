@@ -83,7 +83,7 @@ function composeConvert(input) {
     service.ports = service.ports && service.ports.map(port => {
       // if string, replace
       if (typeof port === 'object') {
-        return `${port.published}:${port.target}/${port.protocol}`;
+        return port.protocol ? `${port.published}:${port.target}/${port.protocol}` : `${port.published}:${port.target}`;
       } else {
         return port;
       }
