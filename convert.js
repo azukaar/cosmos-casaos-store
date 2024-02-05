@@ -82,7 +82,7 @@ function composeConvert(input) {
     delete doc.services[name];
   }
 
-  doc["minVersion"] = "0.14.0";
+  doc["minVersion"] = "0.14.0-0";
 
   return yaml.stringify(doc);
 }
@@ -94,7 +94,7 @@ function descriptionConvert(name, input) {
     name: name,
     description: (doc.tagline || doc.overview || doc.description).en_us,
     longDescription: (doc.description || doc.overview || doc.tagline).en_us,
-    tags: doc.category,
+    tags: [doc.category],
     "repository": "https://github.com/IceWhaleTech/CasaOS-AppStore",
     "image": "",
     "supported_architectures": doc.architectures,
