@@ -4,7 +4,7 @@ This repository is an app marketplace for Cosmos. It is directly converted from 
 
 # How to use
 
-Go to your CasaOS dashboard, click on the marketplace, then sources, and add the following URL to the app store URL input box:
+Go to your Cosmos dashboard, click on the marketplace, then sources, and add the following URL to the app store URL input box:
 
 ```
 https://azukaar.github.io/cosmos-casaos-store/index.json
