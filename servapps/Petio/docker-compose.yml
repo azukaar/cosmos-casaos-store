@@ -15,11 +15,11 @@ services:
     ports:
       - 7777:7777/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/petio/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /app/api/config
-      - type: bind
-        source: "{DefaultDataPath}/AppData/petio/logs"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /app/logs
     container_name: "{ServiceName}-petio"
     hostname: "{ServiceName}-petio"
@@ -37,4 +37,4 @@ services:
 networks:
   petio-network:
     driver: bridge
-minVersion: 0.14.0-0
+minVersion: 0.14.0

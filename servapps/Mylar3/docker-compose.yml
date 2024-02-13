@@ -16,15 +16,15 @@ services:
       - 8090:8090/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/mylar3/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Media/Comics"
         target: /comics
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Downloads"
         target: /downloads
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

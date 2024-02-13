@@ -16,12 +16,12 @@ services:
       - 10280:80/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/smokeping/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
-      - type: bind
-        source: "{DefaultDataPath}/AppData/smokeping/data"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /data
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

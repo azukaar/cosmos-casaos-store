@@ -12,9 +12,9 @@ services:
       - 3001:3001/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/app/data"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /app/data
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

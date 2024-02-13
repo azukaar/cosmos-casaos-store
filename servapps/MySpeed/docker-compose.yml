@@ -12,10 +12,10 @@ services:
       - 5216:5216/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/data"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /myspeed/data
     network_mode: bridge
     privileged: false
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

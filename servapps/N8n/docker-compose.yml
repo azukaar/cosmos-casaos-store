@@ -14,9 +14,9 @@ services:
       - 5678:5678/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/.n8n"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /home/node/.n8n
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

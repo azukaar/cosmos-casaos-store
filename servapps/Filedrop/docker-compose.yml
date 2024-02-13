@@ -15,9 +15,9 @@ services:
     ports:
       - 8000:8000/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/filedrop/data"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /var/file_drop_files
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

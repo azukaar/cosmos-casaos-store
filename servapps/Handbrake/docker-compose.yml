@@ -12,15 +12,15 @@ services:
       - type: bind
         source: /DATA
         target: /storage
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/watch"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /watch
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Media"
         target: /output
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/config"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /config
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

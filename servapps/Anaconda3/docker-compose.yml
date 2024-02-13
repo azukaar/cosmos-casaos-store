@@ -13,8 +13,8 @@ services:
     ports:
       - 8888:8888/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/notebooks"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /opt/notebooks
     command:
       - /bin/bash
@@ -25,4 +25,4 @@ services:
     labels:
       icon: https://cdn.jsdelivr.net/gh/LisonEvf/CasaOS-AppStore@main/Apps/Anaconda3/icon.png
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

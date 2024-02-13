@@ -11,9 +11,9 @@ services:
     ports:
       - 5055:5055/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/overseerr/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

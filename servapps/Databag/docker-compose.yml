@@ -7,9 +7,9 @@ services:
     ports:
       - 7000:7000/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/databag/data"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /var/lib/databag
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

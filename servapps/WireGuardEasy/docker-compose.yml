@@ -14,8 +14,8 @@ services:
       - 51820:51820/udp
       - 51821:51821/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/wireguard"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /etc/wireguard
     cap_add:
       - NET_ADMIN
@@ -25,4 +25,4 @@ services:
       - net.ipv4.conf.all.src_valid_mark=1
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

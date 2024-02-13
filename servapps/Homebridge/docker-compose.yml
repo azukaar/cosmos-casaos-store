@@ -7,7 +7,7 @@ services:
     restart: always
     network_mode: host
     volumes:
-      - "{DefaultDataPath}/AppData/{ServiceName}/config:/homebridge"
+      - "{ServiceName}-data"
     logging:
       driver: json-file
       options:
@@ -15,4 +15,4 @@ services:
         max-file: "1"
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

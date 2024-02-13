@@ -67,14 +67,27 @@ function composeConvert(input) {
     service.container_name = newName;
     service.hostname = newName;
 
+    let volumeIndex = 1;
+
     // convert volumes
     service.volumes = service.volumes && service.volumes.map(volume => {
       // if string, replace
       if (typeof volume === 'string') {
+        if (volume.startsWith('/DATA/AppData/')) {
+          const r=  '{ServiceName}-data' + (volumeIndex === 1 ? '' : `-${volumeIndex}`);
+          volumeIndex++;
+          return r;
+        }
         return volume.replace('/DATA/', '{DefaultDataPath}/');
       } else if (typeof volume === 'object') {
         // if object, replace source
-        volume.source = volume.source.replace('/DATA/', '{DefaultDataPath}/');
+        if (volume.source.startsWith('/DATA/AppData/')) {
+          volume.source = '{ServiceName}-data' + (volumeIndex === 1 ? '' : `-${volumeIndex}`);
+          volumeIndex++;
+        } else { 
+          volume.source = volume.source.replace('/DATA/', '{DefaultDataPath}/');
+        }
+        volume.type = volume.source[0] === '/' ? 'bind' : 'volume';
         return volume;
       }
     });
@@ -95,7 +108,7 @@ function composeConvert(input) {
     delete doc.services[name];
   }
 
-  doc["minVersion"] = "0.14.0-0";
+  doc["minVersion"] = "0.14.0";
 
   delete doc['x-casaos']
 

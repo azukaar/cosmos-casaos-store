@@ -21,12 +21,12 @@ services:
       - 547:547/udp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/etc/pihole/"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /etc/pihole
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/etc/dnsmasq.d/"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /etc/dnsmasq.d
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

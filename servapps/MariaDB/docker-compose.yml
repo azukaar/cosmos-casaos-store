@@ -16,9 +16,9 @@ services:
     ports:
       - 3306:3306/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/mariadb/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

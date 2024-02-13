@@ -9,8 +9,8 @@ services:
     image: gdy666/lucky:2.6.2
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/lucky"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /goodluck
     environment:
       TZ: auto
@@ -18,4 +18,4 @@ services:
     privileged: false
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

@@ -22,15 +22,15 @@ services:
         source: /etc/timezone
         target: /etc/timezone
         read_only: true
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/addons"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /openhab/addons
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/conf"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /openhab/conf
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/userdata"
+      - type: volume
+        source: "{ServiceName}-data-3"
         target: /openhab/userdata
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

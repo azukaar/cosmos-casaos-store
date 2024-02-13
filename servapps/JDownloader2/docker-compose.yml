@@ -17,12 +17,12 @@ services:
       - 5900:5900/tcp
       - 3129:3129/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/jdownloader2/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Downloads"
         target: /output
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

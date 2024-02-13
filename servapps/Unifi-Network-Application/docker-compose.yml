@@ -24,8 +24,8 @@ services:
       - 8080:8080/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/unifi-network-application"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
     networks:
       - unifi-bridge
@@ -45,8 +45,8 @@ services:
       - 27017:27017/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/unifi-db"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /data/db
     networks:
       - unifi-bridge
@@ -62,4 +62,4 @@ configs:
       [{role: "dbOwner", db: "unifi-db"}]}); 
 
       db.getSiblingDB("unifi-db_stat").createUser({user: "unifi", pwd: "pass", roles: [{role: "dbOwner", db: "unifi-db_stat"}]});
-minVersion: 0.14.0-0
+minVersion: 0.14.0

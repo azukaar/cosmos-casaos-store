@@ -17,9 +17,9 @@ services:
       - 3579:3579/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/ombi/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

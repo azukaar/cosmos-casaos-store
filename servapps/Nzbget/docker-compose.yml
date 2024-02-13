@@ -18,12 +18,12 @@ services:
       - 6789:6789/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/nzbget/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Downloads"
         target: /downloads
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

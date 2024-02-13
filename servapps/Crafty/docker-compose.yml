@@ -15,10 +15,10 @@ services:
       - 19132:19132/udp
       - 25500-25600:25500-25600
     volumes:
-      - "{DefaultDataPath}/AppData/crafty/backups:/crafty/backups"
-      - "{DefaultDataPath}/AppData/crafty/logs:/crafty/logs"
-      - "{DefaultDataPath}/AppData/crafty/servers:/crafty/servers"
-      - "{DefaultDataPath}/AppData/crafty/config:/crafty/app/config"
-      - "{DefaultDataPath}/AppData/crafty/import:/crafty/import"
+      - "{ServiceName}-data"
+      - "{ServiceName}-data-2"
+      - "{ServiceName}-data-3"
+      - "{ServiceName}-data-4"
+      - "{ServiceName}-data-5"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

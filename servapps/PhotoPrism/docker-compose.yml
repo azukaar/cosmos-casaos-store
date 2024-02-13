@@ -16,12 +16,12 @@ services:
       - 2342:2342/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/photoprism/storage"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /photoprism/storage
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Gallery"
         target: /photoprism/originals
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

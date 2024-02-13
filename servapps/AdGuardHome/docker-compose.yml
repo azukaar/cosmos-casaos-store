@@ -16,12 +16,12 @@ services:
       - 784:784/udp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/opt/adguardhome/work"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /opt/adguardhome/work
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/opt/adguardhome/conf"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /opt/adguardhome/conf
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

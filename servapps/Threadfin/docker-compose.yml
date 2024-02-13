@@ -10,12 +10,12 @@ services:
     ports:
       - 34400:34400/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/threadfin/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /home/threadfin/conf/data
-      - type: bind
-        source: "{DefaultDataPath}/AppData/threadfin/backup"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /home/threadfin/conf/backup
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

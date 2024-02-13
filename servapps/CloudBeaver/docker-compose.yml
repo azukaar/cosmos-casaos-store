@@ -13,10 +13,10 @@ services:
       - 8978:8978/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/workspace"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /opt/cloudbeaver/workspace
     network_mode: bridge
     privileged: false
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

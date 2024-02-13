@@ -21,14 +21,14 @@ services:
     security_opt:
       - apparmor:unconfined
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/Netdata/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /etc/netdata
-      - type: bind
-        source: "{DefaultDataPath}/AppData/Netdata/lib"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /var/lib/netdata
-      - type: bind
-        source: "{DefaultDataPath}/AppData/Netdata/cache"
+      - type: volume
+        source: "{ServiceName}-data-3"
         target: /var/cache/netdata
       - type: bind
         source: /etc/passwd
@@ -51,4 +51,4 @@ services:
     network_mode: bridge
     privileged: false
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

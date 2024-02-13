@@ -13,10 +13,10 @@ services:
       - 89:80/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
     privileged: false
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

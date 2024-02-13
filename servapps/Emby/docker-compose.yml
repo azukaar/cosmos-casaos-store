@@ -23,15 +23,15 @@ services:
       - 8920:8920/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/config"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Media/TV Shows"
         target: /data/tvshows
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Media/Movies"
         target: /data/movies
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

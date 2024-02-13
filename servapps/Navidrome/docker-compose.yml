@@ -14,10 +14,10 @@ services:
     ports:
       - 4533:4533/tcp
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/data"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /data
-      - type: bind
+      - type: volume
         source: "{DefaultDataPath}/Media/Music"
         target: /music
     environment:
@@ -29,4 +29,4 @@ services:
     network_mode: host
     privileged: false
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

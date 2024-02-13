@@ -16,9 +16,9 @@ services:
       - 6806:6806/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/workspace"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /siyuan/workspace
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

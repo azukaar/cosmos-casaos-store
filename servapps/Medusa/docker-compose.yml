@@ -14,16 +14,16 @@ services:
       - 8081:8081/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /config
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/Downloads/Television"
+      - type: volume
+        source: "{ServiceName}-data-2"
         target: /downloads
-      - type: bind
-        source: "{DefaultDataPath}/AppData/{ServiceName}/Media/Television"
+      - type: volume
+        source: "{ServiceName}-data-3"
         target: /tv
     network_mode: bridge
     privileged: false
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0

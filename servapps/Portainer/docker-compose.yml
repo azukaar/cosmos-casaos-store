@@ -14,12 +14,12 @@ services:
       - 9443:9443/tcp
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: "{DefaultDataPath}/AppData/portainer"
+      - type: volume
+        source: "{ServiceName}-data"
         target: /data
       - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock
     container_name: "{ServiceName}"
     hostname: "{ServiceName}"
-minVersion: 0.14.0-0
+minVersion: 0.14.0
