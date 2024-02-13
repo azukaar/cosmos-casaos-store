@@ -74,9 +74,9 @@ function composeConvert(input) {
       // if string, replace
       if (typeof volume === 'string') {
         if (volume.startsWith('/DATA/AppData/')) {
-          const r=  newName + '-data' + (volumeIndex === 1 ? '' : `-${volumeIndex}`);
+          const r =  newName + '-data' + (volumeIndex === 1 ? '' : `-${volumeIndex}`);
           volumeIndex++;
-          return r;
+          return r + ":" + volume.split(':')[1]
         }
         return volume.replace('/DATA/', '{DefaultDataPath}/');
       } else if (typeof volume === 'object') {
