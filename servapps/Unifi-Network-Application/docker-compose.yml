@@ -25,7 +25,7 @@ services:
     restart: unless-stopped
     volumes:
       - type: volume
-        source: "{ServiceName}-data"
+        source: "{ServiceName}-unifi-network-application-data"
         target: /config
     networks:
       - unifi-bridge
@@ -46,7 +46,7 @@ services:
     restart: unless-stopped
     volumes:
       - type: volume
-        source: "{ServiceName}-data"
+        source: "{ServiceName}-unifi-db-data"
         target: /data/db
     networks:
       - unifi-bridge

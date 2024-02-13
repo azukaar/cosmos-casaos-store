@@ -16,10 +16,10 @@ services:
       - 7777:7777/tcp
     volumes:
       - type: volume
-        source: "{ServiceName}-data"
+        source: "{ServiceName}-petio-data"
         target: /app/api/config
       - type: volume
-        source: "{ServiceName}-data-2"
+        source: "{ServiceName}-petio-data-2"
         target: /app/logs
     container_name: "{ServiceName}-petio"
     hostname: "{ServiceName}-petio"
